@@ -91,26 +91,38 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12 sm:gap-10 md:gap-8 max-w-6xl mx-auto">
+     <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-4 max-w-6xl mx-auto">
           {[
-            { number: 1, title: "Search Services", desc: "Find the service you need in your area." },
-            { number: 2, title: "Book Instantly", desc: "Schedule a professional in just a few clicks." },
+            { number: 1, title: "Find Services", desc: "Find the service you are looking for." },
+            { number: 2, title: "Book Instantly", desc: "Book a professional in just a few clicks." },
             { number: 3, title: "Enjoy Services", desc: "Receive service at your doorstep." },
             { number: 4, title: "Review & Repeat", desc: "Rate your experience and book again." }
           ].map((step, i) => (
-            <div key={i} className="flex flex-col items-center">
-              <div className="w-16 h-16 sm:w-20 sm:h-20 bg-[#77B900]/20 text-[#77B900] rounded-full flex items-center justify-center font-bold text-xl sm:text-2xl mb-4">
-                {step.number}
+            <div key={i} className="flex flex-col md:flex-row items-center">
+              <div className="flex flex-col items-center">
+                <div className="w-16 h-16 sm:w-20 sm:h-20 bg-[#77B900]/20 text-[#77B900] rounded-full flex items-center justify-center font-bold text-xl sm:text-2xl mb-4">
+                  {step.number}
+                </div>
+                <h3 className="text-lg sm:text-xl font-semibold text-gray-800 mb-2">
+                  {step.title}
+                </h3>
+                <p className="text-gray-600 text-center text-sm sm:text-base">
+                  {step.desc}
+                </p>
               </div>
-              <h3 className="text-lg sm:text-xl font-semibold text-gray-800 mb-2">
-                {step.title}
-              </h3>
-              <p className="text-gray-600 text-center text-sm sm:text-base">
-                {step.desc}
-              </p>
+              {i < 3 && (
+                <div className="text-[#77B900] text-3xl sm:text-4xl font-bold mx-4 md:mx-6 mt-4 md:mt-0 rotate-90 md:rotate-0">
+                  →
+                </div>
+              )}
             </div>
           ))}
         </div>
+     
+     
+     
+     
+     
       </section>
 
       <WhyChooseUs />
@@ -129,7 +141,7 @@ export default function Home() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 sm:gap-10 max-w-6xl mx-auto">
           {[
             { icon: "🌟", title: "Trusted Professionals", text: "All service providers are carefully verified." },
-            { icon: "⚡", title: "Fast & Easy Booking", text: "Schedule services in minutes." },
+            { icon: "⚡", title: "Fast & Easy Booking", text: "Book services in minutes." },
             { icon: "🤝", title: "Reliable & Local", text: "Connect with professionals in your neighborhood." }
           ].map((card, i) => (
             <div

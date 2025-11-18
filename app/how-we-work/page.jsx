@@ -82,14 +82,14 @@ export default function HowWeWork() {
               {
                 step: "1",
                 title: "Choose a Service",
-                desc: "Browse home and event services tailored to your needs.",
+                desc: "Find services customized to match what you’re looking for.",
                 icon: FaCheckCircle,
                 color: "from-emerald-500 to-[#77B900]",
               },
               {
                 step: "2",
                 title: "Record a Video",
-                desc: "A 5-10 second clip helps professionals understand your problem clearly.",
+                desc: "A few seconds clip helps professionals understand your problem clearly.",
                 icon: FaVideo,
                 color: "from-blue-500 to-cyan-500",
               },

@@ -37,7 +37,7 @@ export default function WhyChooseUs() {
       icon: <FaClock className="text-3xl sm:text-4xl text-[#77B900] mx-auto mb-3 sm:mb-4" />,
     },
     {
-      title: "Insurance & Guarantee",
+      title: "Guarantee",
       desc: "All services come with quality assurance.",
       icon: <FaShieldAlt className="text-3xl sm:text-4xl text-[#77B900] mx-auto mb-3 sm:mb-4" />,
     },
