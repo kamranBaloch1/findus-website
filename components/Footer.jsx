@@ -27,7 +27,7 @@ export default function Footer() {
           
           <div className="flex gap-3 sm:gap-4 mt-1 sm:mt-2">
             <Link
-              href="#" 
+              href="https://www.facebook.com/share/1JjgKzMbyK/" 
               className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 transition-all duration-300 hover:scale-110"
               aria-label="Facebook"
               target="_blank"
@@ -60,12 +60,7 @@ export default function Footer() {
         {/* Quick Links */}
         <div className="flex flex-col gap-2 sm:gap-2.5">
           <h3 className="font-bold text-base sm:text-lg mb-1 sm:mb-2 text-white">Quick Links</h3>
-          <Link 
-            href="/about-us" 
-            className="text-white/90 hover:text-white hover:translate-x-1 transition-all duration-200 text-sm sm:text-base"
-          >
-            About Us
-          </Link>
+         
           <Link 
             href="/team" 
             className="text-white/90 hover:text-white hover:translate-x-1 transition-all duration-200 text-sm sm:text-base"

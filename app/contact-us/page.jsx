@@ -88,10 +88,10 @@ export default function ContactPage() {
 
               <div className="flex items-center gap-4">
                 <Link
-                 href=""
+                 href="https://www.facebook.com/share/1JjgKzMbyK/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-12 h-12 bg-gray-100 rounded-xl flex items-center justify-center hover:bg-[#77B900] hover:text-white transition"
+                  className="w-12 h-12 rounded-xl flex items-center justify-center bg-[#77B900] text-white "
                 >
                   <FaFacebook className="w-5 h-5" />
                 </Link>
@@ -99,7 +99,7 @@ export default function ContactPage() {
                 href=""
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-12 h-12 bg-gray-100 rounded-xl flex items-center justify-center hover:bg-[#77B900] hover:text-white transition"
+                className="w-12 h-12 rounded-xl flex items-center justify-center bg-[#77B900] text-white "
                 >
                   <FaInstagram className="w-5 h-5" />
                 </Link>
@@ -107,7 +107,7 @@ export default function ContactPage() {
                   href="https://www.linkedin.com/company/finduspk/about/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-12 h-12 bg-gray-100 rounded-xl flex items-center justify-center hover:bg-[#77B900] hover:text-white transition"
+                 className="w-12 h-12 rounded-xl flex items-center justify-center bg-[#77B900] text-white "
                 >
                   <FaLinkedin className="w-5 h-5" />
                 </Link>
