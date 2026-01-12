@@ -60,7 +60,12 @@ export default function Footer() {
         {/* Quick Links */}
         <div className="flex flex-col gap-2 sm:gap-2.5">
           <h3 className="font-bold text-base sm:text-lg mb-1 sm:mb-2 text-white">Quick Links</h3>
-         
+           <Link 
+            href="/" 
+            className="text-white/90 hover:text-white hover:translate-x-1 transition-all duration-200 text-sm sm:text-base"
+          >
+            Home
+          </Link>
           <Link 
             href="/team" 
             className="text-white/90 hover:text-white hover:translate-x-1 transition-all duration-200 text-sm sm:text-base"
@@ -78,6 +83,18 @@ export default function Footer() {
             className="text-white/90 hover:text-white hover:translate-x-1 transition-all duration-200 text-sm sm:text-base"
           >
             Contact
+          </Link>
+          <Link 
+            href="/privacy-policy" 
+            className="text-white/90 hover:text-white hover:translate-x-1 transition-all duration-200 text-sm sm:text-base"
+          >
+            Privacy Policy
+          </Link>
+          <Link 
+            href="/terms-and-conditions" 
+            className="text-white/90 hover:text-white hover:translate-x-1 transition-all duration-200 text-sm sm:text-base"
+          >
+           Terms & Conditions
           </Link>
         </div>
 
