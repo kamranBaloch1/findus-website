@@ -20,20 +20,20 @@ export default function PrivacyPolicyPage() {
             collects, uses, and protects your information across our platform.
           </p>
           <p className="text-sm text-gray-500 mt-3">
-             Last updated: [13,January,2026] 
+            Last updated: 13 January 2026
           </p>
         </motion.div>
 
-        {/* Content Card */}
+        {/* Content */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.1 }}
           className="bg-white border border-gray-200 rounded-3xl shadow-xl p-10 md:p-14"
         >
-          <section className="space-y-10 text-gray-800 text-[17px] leading-relaxed">
+          <section className="space-y-12 text-gray-800 text-[17px] leading-relaxed">
             <p>
-              FindUs is a service platform operating through two mobile
+              FindUs is a technology platform operating through two mobile
               applications: the FindUs User Application and the FindUs Partners
               Application. This Privacy Policy explains how FindUs collects,
               uses, stores, shares, and protects personal information when you
@@ -52,111 +52,127 @@ export default function PrivacyPolicyPage() {
                     1.1 Personal Information
                   </h3>
                   <p className="mt-2">
-                    We may collect personal information such as full name,
-                    phone number, profile details, service category,
-                    experience information, and other account related data
-                    provided by users and service providers.
+                    We may collect personal information such as your full name,
+                    phone number, email address, profile details, service
+                    preferences, and other account-related information provided
+                    by users and service providers.
                   </p>
                 </div>
 
                 <div>
                   <h3 className="text-xl font-semibold">
-                    1.2 Government Issued Identification and Verification (Partners)
+                    1.2 Google Sign-In Information
                   </h3>
                   <p className="mt-2">
-                    For service providers using the FindUs Partners
-                    Application, we may collect government issued
-                    identification details including CNIC number and or CNIC
-                    images strictly for identity verification, compliance,
-                    fraud prevention, and platform safety purposes.
+                    FindUs allows users and service providers to sign in using
+                    Google authentication. When you choose to sign in with
+                    Google, we may receive certain information from your Google
+                    account such as your name, email address, and profile
+                    picture.
                   </p>
-                  <p className="mt-2 text-gray-600">
+                  <p className="mt-4">
+                    This information is used only for account creation,
+                    authentication, and profile display purposes. FindUs does
+                    not receive or store your Google account password and does
+                    not access any other Google account data beyond what you
+                    explicitly authorize.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-semibold">
+                    1.3 Government Issued Identification and Verification
+                    (Partners)
+                  </h3>
+                  <p className="mt-2">
+                    For service providers using the FindUs Partners Application,
+                    we may collect government issued identification details,
+                    including CNIC number and or CNIC images, strictly for
+                    identity verification, fraud prevention, compliance, and
+                    platform safety.
+                  </p>
+                  <p className="mt-4 text-gray-600">
                     CNIC information is accessible only by authorized systems
                     and is never publicly displayed or shared with users.
                   </p>
                   <p className="mt-4">
-                    As part of partner registration and verification, service
-                    providers may also be required to record a short video of
-                    themselves. This verification video is used solely for
-                    identity confirmation, fraud prevention, and platform
-                    safety. Verification videos are reviewed only by
-                    authorized systems or personnel and are not shared with
-                    users or made public.
+                    As part of partner registration, service providers may also
+                    be required to record a short verification video. This video
+                    is used solely for identity confirmation and platform
+                    safety. Verification videos are not shared with users or
+                    made public.
                   </p>
                 </div>
 
                 <div>
                   <h3 className="text-xl font-semibold">
-                    1.3 Location Information
+                    1.4 Location Information
                   </h3>
                   <p className="mt-2">
-                    Location data is collected to show nearby service
-                    providers, assign service requests, enable navigation,
-                    and improve service accuracy. Location access is used
-                    only while the app is active or when permission is
-                    granted.
+                    Location data is collected to show nearby service providers,
+                    assign service requests, enable navigation, and improve
+                    service accuracy. Location access is used only while the app
+                    is active or when permission is granted.
                   </p>
                 </div>
 
                 <div>
                   <h3 className="text-xl font-semibold">
-                    1.4 Media, Camera, and Audio Data
+                    1.5 Media, Camera, and Audio Data
                   </h3>
                   <p className="mt-2">
                     Users and partners may upload photos, videos, or audio
-                    recordings including profile images, verification media,
-                    and service related recordings.
+                    recordings, including profile images, verification media,
+                    and service-related recordings.
                   </p>
                   <p className="mt-4">
-                    In the FindUs User Application, users may record videos
-                    to explain or demonstrate a service related problem.
-                    These problem recording videos may be shared with nearby
-                    service providers for the purpose of receiving accurate
-                    service offers. Such videos are visible only to relevant
-                    providers and are not made publicly accessible.
+                    In the FindUs User Application, users may record videos to
+                    explain or demonstrate a service-related problem. These
+                    videos may be shared with nearby service providers for the
+                    purpose of receiving accurate service offers. Such videos
+                    are visible only to relevant providers and are not publicly
+                    accessible.
                   </p>
                   <p className="mt-4">
-                    All uploaded media is used solely for service
-                    fulfillment, verification, communication, dispute
-                    handling, and platform safety.
+                    All uploaded media is used solely for service fulfillment,
+                    verification, communication, dispute handling, and platform
+                    safety.
                   </p>
                 </div>
 
                 <div>
                   <h3 className="text-xl font-semibold">
-                    1.5 Device and Usage Information
+                    1.6 Device and Usage Information
                   </h3>
                   <p className="mt-2">
-                    We automatically collect technical data such as device
-                    type, operating system, app usage behavior, connectivity
-                    status, and performance logs to maintain stability,
-                    security, and service quality.
+                    We automatically collect technical information such as
+                    device type, operating system, app usage behavior,
+                    connectivity status, and performance logs to maintain
+                    stability, security, and service quality.
                   </p>
                 </div>
 
                 <div className="pt-4 border-t border-gray-100">
                   <h3 className="text-xl font-semibold">
-                    1.6 In-App Communication and Language Preferences
+                    1.7 In-App Communication and Language Preferences
                   </h3>
                   <p className="mt-2">
-                    FindUs provides an in-app chat feature that allows users
+                    FindUs provides in-app chat functionality that allows users
                     and service providers to communicate regarding service
-                    requests. Messages and related metadata may be processed
-                    and stored to enable communication, provide customer
-                    support, resolve disputes, and maintain platform safety.
+                    requests. Messages and related metadata may be stored to
+                    enable communication, provide customer support, resolve
+                    disputes, and maintain platform safety.
                   </p>
                   <p className="mt-4">
-                    To facilitate service coordination, users and service
-                    providers involved in a service request may view and
-                    contact each other using their provided phone numbers.
-                    Phone numbers are shared only between parties directly
-                    involved in a service and are not made publicly visible.
+                    Users and service providers involved in a service request
+                    may view and contact each other using their provided phone
+                    numbers. Phone numbers are shared only between parties
+                    directly involved in a service.
                   </p>
                   <p className="mt-4">
-                    Language preferences, such as English or Urdu selection,
-                    may be used to personalize the app experience. Language
-                    settings are stored securely and are not shared with
-                    third parties.
+                    Language preferences, such as English or Urdu selection, may
+                    be stored to personalize the app experience and are not
+                    shared with third parties.
                   </p>
                 </div>
               </div>
@@ -182,9 +198,9 @@ export default function PrivacyPolicyPage() {
               </h2>
               <p>
                 FindUs does not sell personal data. Sensitive information,
-                including CNIC details and verification videos, is never
-                shared with users or third parties except where required by
-                law or regulatory authorities.
+                including CNIC details and verification videos, is not shared
+                with users or third parties except where required by law or
+                regulatory authorities.
               </p>
             </div>
 
@@ -194,11 +210,10 @@ export default function PrivacyPolicyPage() {
                 4. Data Security
               </h2>
               <p>
-                Sensitive data including identification details and
-                verification media is protected using restricted access
-                controls, secure storage practices, and encryption where
-                applicable. While strong safeguards are applied, no system
-                can guarantee absolute security.
+                We apply reasonable technical and organizational safeguards,
+                including restricted access and secure storage practices, to
+                protect personal information. While strong measures are used,
+                no system can guarantee absolute security.
               </p>
             </div>
 
@@ -208,10 +223,9 @@ export default function PrivacyPolicyPage() {
                 5. Data Retention
               </h2>
               <p>
-                Personal and identification data is retained only for as
-                long as necessary to fulfill verification, legal, and
-                operational requirements, after which it is securely
-                deleted or anonymized where applicable.
+                Personal and identification data is retained only for as long
+                as necessary to fulfill operational, legal, and verification
+                requirements, after which it is securely deleted or anonymized.
               </p>
             </div>
 
@@ -221,9 +235,9 @@ export default function PrivacyPolicyPage() {
                 6. User and Partner Rights
               </h2>
               <p>
-                Users and partners may request access, correction, or
-                deletion of their personal data, subject to applicable legal
-                and regulatory obligations.
+                Users and partners may request access, correction, or deletion
+                of their personal information, subject to applicable legal and
+                regulatory obligations.
               </p>
             </div>
 
@@ -233,8 +247,8 @@ export default function PrivacyPolicyPage() {
                 7. Children’s Privacy
               </h2>
               <p>
-                FindUs services are not intended for individuals under the
-                age of 13. We do not knowingly collect personal data from
+                FindUs services are not intended for individuals under the age
+                of 13. We do not knowingly collect personal information from
                 children.
               </p>
             </div>
