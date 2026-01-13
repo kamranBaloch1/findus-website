@@ -175,6 +175,31 @@ export default function PrivacyPolicyPage() {
                     shared with third parties.
                   </p>
                 </div>
+               <div>
+  <h3 className="text-xl font-semibold">
+    1.8 Payments, Wallet, and Commission Information (Partners)
+  </h3>
+  <p className="mt-2">
+    FindUs provides a wallet-based system for service providers using the
+    FindUs Partners Application. Partners may be required to top up their
+    account balance in order to receive new service requests.
+  </p>
+  <p className="mt-4">
+    Top-ups may be completed through supported third-party payment services,
+    such as EasyPaisa. FindUs does not store users’ full payment credentials.
+    Payment processing is handled securely by the respective payment service
+    providers in accordance with their own privacy policies.
+  </p>
+  <p className="mt-4">
+    As part of our commission-based business model, FindUs deducts a service
+    commission from a partner’s wallet balance for completed jobs. Wallet
+    balances, top-up history, and commission deductions may be recorded and
+    stored for transaction tracking, support, dispute resolution, and legal
+    compliance.
+  </p>
+</div>
+
+
               </div>
             </div>
 
