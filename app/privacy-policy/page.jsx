@@ -175,31 +175,37 @@ export default function PrivacyPolicyPage() {
                     shared with third parties.
                   </p>
                 </div>
-               <div>
-  <h3 className="text-xl font-semibold">
-    1.8 Payments, Wallet, and Commission Information (Partners)
-  </h3>
-  <p className="mt-2">
-    FindUs provides a wallet-based system for service providers using the
-    FindUs Partners Application. Partners may be required to top up their
-    account balance in order to receive new service requests.
-  </p>
-  <p className="mt-4">
-    Top-ups may be completed through supported third-party payment services,
-    such as EasyPaisa. FindUs does not store users’ full payment credentials.
-    Payment processing is handled securely by the respective payment service
-    providers in accordance with their own privacy policies.
-  </p>
-  <p className="mt-4">
-    As part of our commission-based business model, FindUs deducts a service
-    commission from a partner’s wallet balance for completed jobs. Wallet
-    balances, top-up history, and commission deductions may be recorded and
-    stored for transaction tracking, support, dispute resolution, and legal
-    compliance.
-  </p>
-</div>
-
-
+                <div>
+                  <h3 className="text-xl font-semibold">
+                    1.8 Payments, Wallet, and Commission Information (Partners)
+                  </h3>
+                  <p className="mt-2">
+                    FindUs provides a wallet-based system for service providers
+                    using the FindUs Partners Application. Partners may be
+                    required to top up their account balance in order to receive
+                    new service requests.
+                  </p>
+                  <p className="mt-4">
+                    Top-ups may be completed through supported third-party
+                    payment services, such as EasyPaisa. FindUs does not store
+                    users’ full payment credentials. Payment processing is
+                    handled securely by the respective payment service providers
+                    in accordance with their own privacy policies.
+                  </p>
+                  <p className="mt-4">
+                    As part of our commission-based business model, FindUs
+                    deducts a service commission from a partner’s wallet balance
+                    for completed jobs. Wallet balances, top-up history, and
+                    commission deductions may be recorded and stored for
+                    transaction tracking, support, dispute resolution, and legal
+                    compliance.
+                  </p>
+                  <p className="mt-4">
+                    Other third-party services may be used for payments,
+                    analytics, or notifications, and are governed by their
+                    respective privacy policies.
+                  </p>
+                </div>
               </div>
             </div>
 
@@ -231,25 +237,21 @@ export default function PrivacyPolicyPage() {
 
             {/* Section 4 */}
             <div>
-              <h2 className="text-2xl font-bold mb-4">
-                4. Data Security
-              </h2>
+              <h2 className="text-2xl font-bold mb-4">4. Data Security</h2>
               <p>
                 We apply reasonable technical and organizational safeguards,
                 including restricted access and secure storage practices, to
-                protect personal information. While strong measures are used,
-                no system can guarantee absolute security.
+                protect personal information. While strong measures are used, no
+                system can guarantee absolute security.
               </p>
             </div>
 
             {/* Section 5 */}
             <div>
-              <h2 className="text-2xl font-bold mb-4">
-                5. Data Retention
-              </h2>
+              <h2 className="text-2xl font-bold mb-4">5. Data Retention</h2>
               <p>
-                Personal and identification data is retained only for as long
-                as necessary to fulfill operational, legal, and verification
+                Personal and identification data is retained only for as long as
+                necessary to fulfill operational, legal, and verification
                 requirements, after which it is securely deleted or anonymized.
               </p>
             </div>
@@ -261,16 +263,15 @@ export default function PrivacyPolicyPage() {
               </h2>
               <p>
                 Users and partners may request access, correction, or deletion
-                of their personal information, subject to applicable legal and
+                of their personal information by contacting us at
+                contact@findus.com.pk , subject to applicable legal and
                 regulatory obligations.
               </p>
             </div>
 
             {/* Section 7 */}
             <div>
-              <h2 className="text-2xl font-bold mb-4">
-                7. Children’s Privacy
-              </h2>
+              <h2 className="text-2xl font-bold mb-4">7. Children’s Privacy</h2>
               <p>
                 FindUs services are not intended for individuals under the age
                 of 13. We do not knowingly collect personal information from
@@ -284,9 +285,11 @@ export default function PrivacyPolicyPage() {
                 8. Contact Information
               </h2>
               <p>
-                <strong>Company:</strong> FindUs <br />
+                <strong>Company:</strong> FIND US (PRIVATE) LIMITED <br />
                 <strong>Email:</strong> contact@findus.com.pk <br />
                 <strong>Country:</strong> Pakistan
+                <strong>Address:</strong> Gulshan-e-Iqbal, Karachi East, Sindh,
+                Pakistan
               </p>
             </div>
           </section>

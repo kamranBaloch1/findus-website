@@ -227,10 +227,12 @@ export default function TermsAndConditionsPage() {
               <h2 className="text-2xl font-bold mb-4">
                 13. Contact Information
               </h2>
-              <p>
-                <strong>Company:</strong> FindUs <br />
+               <p>
+                <strong>Company:</strong> FIND US (PRIVATE) LIMITED <br />
                 <strong>Email:</strong> contact@findus.com.pk <br />
                 <strong>Country:</strong> Pakistan
+                <strong>Address:</strong> Gulshan-e-Iqbal, Karachi East, Sindh,
+                Pakistan
               </p>
             </div>
           </section>
