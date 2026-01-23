@@ -230,7 +230,7 @@ export default function TermsAndConditionsPage() {
                <p>
                 <strong>Company:</strong> FIND US (PRIVATE) LIMITED <br />
                 <strong>Email:</strong> contact@findus.com.pk <br />
-                <strong>Country:</strong> Pakistan
+                <strong>Country:</strong> Pakistan <br />
                 <strong>Address:</strong> Gulshan-e-Iqbal, Karachi East, Sindh,
                 Pakistan
               </p>
