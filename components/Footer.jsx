@@ -96,6 +96,12 @@ export default function Footer() {
           >
            Terms & Conditions
           </Link>
+          <Link 
+            href="/delete-account" 
+            className="text-white/90 hover:text-white hover:translate-x-1 transition-all duration-200 text-sm sm:text-base"
+          >
+           Delete Account 
+          </Link>
         </div>
 
         {/* Contact Info */}
