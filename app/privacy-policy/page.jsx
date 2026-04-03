@@ -190,7 +190,7 @@ export default function PrivacyPolicyPage() {
                 {[
                   "Open the FindUs app (User or Partner)",
                   "Go to your Profile",
-                  "Open Settings → Account",
+                  "Open Settings",
                   "Tap Delete Account",
                   "Review details and confirm"
                 ].map((step, i) => (
